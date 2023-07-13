@@ -1,0 +1,11 @@
+<div class="container my-2">
+  <h2>New post</h2>
+
+  <%= render "form", post: @post %>
+
+  <br>
+
+  <div>
+    <%= link_to "Back to posts", posts_path,:class=>"btn btn-outline-secondary" %>
+  </div>
+</div>
